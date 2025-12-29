@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 100px;
+}
+nav div {
+    align-items: center;
+    display: flex;
+    gap: 50px;
+}
+
+nav div h3 {
+    color: #52BDAA;
+    font-size: 34px;
+}
+nav div a {
+    text-decoration: none;
+    color: gray;
+}
+
+nav button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #54BD95;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 5px 10px 100px;
+}
+
+.hero_text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero_section img {
+    max-width: 650px;
+}
+
+section h1 {
+    font-size: 70px;
+    line-height: 80px;
+    color: #191A15;
+}
+
+.hero_button {
+    display: flex;
+    gap: 20px;
+}
+
+.hero_button button {
+    padding: 15px 40px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.hero_button button:first-child {
+    background-color: #54BD95;
+    color: white;
+}
+
+.customer_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 100px;
+}
+section .customers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 100px;
+    color: #191A15;
+    font-size: 25px;
+}
+
+.customer_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+section .customers_icons img {
+    width: 50px;
+}
