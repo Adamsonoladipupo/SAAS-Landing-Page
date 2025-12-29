@@ -104,3 +104,81 @@ section .customers{
 section .customers_icons img {
     width: 50px;
 }
+
+.partner_support {
+    margin: 100px 100px;
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.partner_support_one {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.partner_support_two {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: left;
+    gap: 20px;
+}
+
+.ratings {
+    display: flex;
+    justify-content:left;
+    gap: 20px;
+}
+
+.feauture {
+    display: flex;
+    align-items:flex-start ;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.feauture p{
+    font-size: 16px;
+    line-height: 25px;
+    color: gray;
+}
+
+.feauture span svg {
+    background-color: #ffffff;
+    padding: 10px;
+    color: #54BD95;
+}
+
+.our_features_section {
+    margin: 10px 100px;
+}
+
+.features_top {
+    margin: 0px 0px 100px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.features_top h2{
+    font-size: 50px;
+    line-height: 40px;
+}
+
+.features_top button {
+    background-color: #54BD95;
+    padding: 15px 40px;
+    border-radius: 50px;
+    color: #ffffff;
+    border: none;
+}
+
+.core_features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
