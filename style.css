@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f5f5f5;
+    /* background-color: #f5f5f5; */
 }
 
 
@@ -181,4 +181,352 @@ section .customers_icons img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+}
+
+.single_feature {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.single_feature h3 {
+    font-size: 32px;
+}
+
+.single_feature span {
+    width: 80%;
+}
+.single_feature span p {
+    color: gray;
+    font-size: 18px;
+}
+
+.benefit_section {
+    margin: 100px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.benefits_list {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: left;
+    gap: 30px;
+}
+
+.benefits_list h2 {
+    font-size: 45px;
+}
+
+.benefits_list span {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+}
+
+.benefits_list span svg {
+    color: #52BDAA;
+}
+
+.subscription_section {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+    margin: 100px;
+
+}
+
+.subscripter_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.subscripter_header h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+.subscripter_header p {
+    font-size: 20px;
+    color: gray;
+    margin: 30px 0px;
+}
+
+.subscription_duration {
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    /* border:  2px solid red; */
+    margin: 20px 0px 40px 0px;
+}
+
+.subscription_duration button {
+    padding: 15px 40px;
+    border-radius: 10px;
+    border: none;
+
+}
+.subscription_duration .active {
+    background-color: #54BD95;
+    color: #ffffff;
+
+}
+
+.subscription_plans {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.subscription_plans div:nth-child(2) {
+    background-color: #52BDAA;
+    color: #ffffff;
+
+}
+
+.subscription_plans div:nth-child(2) h1 {
+    color: #fff;
+}
+
+
+.subscription_plans div:nth-child(2) button {
+    background-color: #55dfc5;
+    color: #ffffff;
+    padding: 12px 25px;
+    border: none;
+    margin: 20px 0px;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    padding: 30px 10px;
+    /* box-shadow: 10px 10px lightblue; */
+    box-shadow: 0 4px 15px #ebeeff;
+}
+
+.plan p {
+    font-size: 18px;
+    color: gray;
+}
+
+.plan h3 {
+    margin: 10px;
+}
+
+.plan .plan_benefits {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #f5fbff;
+    margin: 20px;
+}
+
+.plan_benefits span {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+    width: 100%;
+}
+
+.plan_benefits span svg {
+    color: #52BDAA;
+}
+
+.plan_benefits button {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px 40px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    margin: 10px 0px;
+    color: #52BDAA;
+    box-shadow: 0 4px 15px #ebeeff;
+}
+
+footer {
+    background-color: #161c28;
+    color: #ffffff;
+    margin-top: 50px;
+    padding: 100px 100px 50px 100px;
+}
+
+footer .footer_section_one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 70px;
+}
+
+footer .footer_section_one .footerTestimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer .footer_section_one .footerTestimonials h2 {
+    font-size: 45px;
+}
+footer .footer_section_one .footerTestimonials p {
+    font-size: 16px;
+    color: #748e99;
+}
+
+footer .footer_section_one .footerTestimonials .profile_icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+footer .footer_section_one .contact_form {
+    background-color: #222938;
+    padding: 30px 60px 40px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 10px;
+}
+footer .footer_section_one .contact_form .contact_form_header {
+    margin: 20px;
+}
+
+footer .footer_section_one .contact_form .contact_form_header h3 {
+    font-size: 32px;
+}
+footer .footer_section_one .contact_form .contact_form_header svg {
+    width: 80px;
+    height: 80px;
+    color: #52BDAA;
+}
+
+footer .footer_section_one .contact_form .form_inputs {
+    display: grid;
+    width: 100%;
+    gap: 20px;
+}
+
+footer .footer_section_one .contact_form .form_inputs input {
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+}
+
+footer .footer_section_one .contact_form .form_inputs button {
+    padding: 15px;
+    background-color: #52BDAA;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+footer .footer_section_one .contact_form .form_inputs a {
+    text-align: right;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+
+}
+
+footer .footer_section_two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0px;
+}
+
+footer .footer_section_two h3 {
+    font-size: 42px;
+    color: #52BDAA;
+}
+
+footer .footer_section_two .email_subscription {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: left;
+    gap: 10px;
+}
+
+footer .footer_section_two .email_subscription span {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 50px;
+    padding: 0px 3px;
+    border: 1px solid #52BDAA;
+    margin-top: 15px;
+}
+
+footer .footer_section_two .email_subscription span svg {
+    background-color: #52BDAA;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+}
+
+footer .footer_section_two .email_subscription span input {
+    padding: 10px 30px;
+    background-color: #ffffff00;
+    border: none;
+    color: #52BDAA;
+}
+
+footer .footer_section_two .useful_links {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 50px;
+}
+
+footer .footer_section_two .useful_links ul li {
+    list-style-type: none;
+}
+footer .footer_section_two .useful_links ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+footer .footer_section_three {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+footer .footer_section_three a {
+    text-decoration: none;
+    color: #ffffff;
 }
