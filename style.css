@@ -567,9 +567,6 @@ footer .footer_section_three a {
 
 
 @media (max-width: 1180px){
-    *{
-         /* background-color: red; */
-    }
     nav {
         margin: 50px 50px;
     }
@@ -816,9 +813,7 @@ footer .footer_section_three a {
 
 
 @media (max-width: 760px){
-    * {
-        /* background-color: red; */
-    }
+
     .hamburger_menu {
         display: block;
     }

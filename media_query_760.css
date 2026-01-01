@@ -1,7 +1,4 @@
 @media (max-width: 760px){
-    * {
-        /* background-color: red; */
-    }
     .hamburger_menu {
         display: block;
     }
