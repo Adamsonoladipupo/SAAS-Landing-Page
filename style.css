@@ -813,3 +813,150 @@ footer .footer_section_three a {
         width: 50px; 
     }
 }
+
+
+@media (max-width: 760px){
+    * {
+        /* background-color: red; */
+    }
+    .hamburger_menu {
+        display: block;
+    }
+    .tab_bar {
+        display: none;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 30px 20px;
+    }
+    .hero_section {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 20px 10px 20px;
+        gap: 30px;
+    }
+    .hero_text img {
+        width: 100%;
+    }
+    .hero_image img {
+        width: 100%;
+    }
+    section .customers{
+        font-size: 20px;
+    }
+
+    .customer_section .customers .customer_icons {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .customer_section .customers .customer_icons img {
+        width: 120px;
+    }
+
+    .partner_support {
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .our_features_section {
+        margin: 10px 20px;
+    }
+
+    .features_top {
+        margin: 0px 0px 40px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: left;
+        gap: 20px;
+    }
+
+    .features_top h2{
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .features_top button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .features_top span {
+        width: 400px; 
+    }
+
+    .core_features {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 20px;
+    }
+
+    .benefit_section {
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        gap: 30px;
+    }
+    .benefits_list h2 {
+        font-size: 35px;
+    }
+    .subscription_section .subscripter_header h2 {
+        font-size: 35px;
+    } 
+
+    .subscription_plans {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    footer {
+        padding: 50px 20px 30px 20px;
+    }
+
+    footer .footer_section_one {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        gap: 30px;
+        margin-bottom: 70px;
+    }
+
+    footer .footer_section_two {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        margin: 50px 0px;
+        gap: 30px;
+    }
+
+    footer .footer_section_two .useful_links {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        gap: 10px;
+    }
+    footer .footer_section_two .useful_links ul li a {
+        font-size: 14px;
+    }
+
+    footer .footer_section_three {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        font-size: 12px;
+    }
+
+}
