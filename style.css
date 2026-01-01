@@ -54,6 +54,10 @@ nav button {
     max-width: 650px;
 }
 
+.hero_text img {
+    width: 400px;
+}
+
 section h1 {
     font-size: 70px;
     line-height: 80px;
@@ -84,6 +88,11 @@ section h1 {
     align-items: center;
     margin: 0px 100px;
 }
+
+.customer_section .customers .customer_icons img {
+    width: 150px;
+}
+
 section .customers{
     display: flex;
     flex-direction: column;
@@ -181,7 +190,10 @@ section .customers_icons img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
 
+.core_features .single_feature img {
+    width: 350px;
 }
 
 .single_feature {
@@ -200,6 +212,10 @@ section .customers_icons img {
 .single_feature span p {
     color: gray;
     font-size: 18px;
+}
+
+.benefit_image img{
+    width: 600px;
 }
 
 .benefit_section {
