@@ -58,6 +58,10 @@ nav button {
     width: 400px;
 }
 
+.hamburger_menu {
+    display: none;
+}
+
 section h1 {
     font-size: 70px;
     line-height: 80px;
@@ -184,6 +188,11 @@ section .customers_icons img {
     border-radius: 50px;
     color: #ffffff;
     border: none;
+}
+
+.features_top span {
+    width: 450px; 
+    color: gray;
 }
 
 .core_features {
@@ -422,6 +431,15 @@ footer .footer_section_one .footerTestimonials .profile_icons {
 
 }
 
+footer .footer_section_one .footerTestimonials .profile_icons img {
+    width: 60px; 
+    border-radius: 50px;
+}
+
+footer .footer_section_one .footerTestimonials .profile_icons svg {
+    width: 60px; 
+}
+
 footer .footer_section_one .contact_form {
     background-color: #222938;
     padding: 30px 60px 40px 60px;
@@ -545,4 +563,253 @@ footer .footer_section_three {
 footer .footer_section_three a {
     text-decoration: none;
     color: #ffffff;
+}
+
+
+@media (max-width: 1180px){
+    *{
+         /* background-color: red; */
+    }
+    nav {
+        margin: 50px 50px;
+    }
+
+    nav div {
+        gap: 20px;
+    }
+
+    nav div h3 {
+        font-size: 28px;
+    }
+
+    nav button {
+        padding: 7px 15px;
+    }
+    .hero_section {
+        margin: 50px 5px 10px 50px;
+    }
+
+    .hero_text img {
+        width: 250px;
+    }
+    .hero_section img {
+        max-width: 500px;
+    }
+    section h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .customer_section{
+        margin: 0px 30px;
+    }
+
+    .customer_section .customers .customer_icons img {
+        width: 100%;
+    }
+    section .customers{
+        gap: 30px;
+        margin-top: 70px;
+        font-size: 20px;
+    }
+    .customer_icons {
+        gap: 50px;
+    }
+
+    .partner_support {
+        margin: 50px 50px;
+        gap: 20px;
+    }
+    .partner_support_one {
+        gap: 20px;
+    }
+    .partner_support_two {
+        gap: 10px;
+    }
+
+    .ratings {
+        gap: 10px;
+    }
+    .feauture {
+        gap: 15px;
+    }
+
+    .feauture p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .feauture span svg {
+        padding: 7px;
+    }
+
+    .our_features_section {
+        margin: 10px 50px;
+    }
+
+    .features_top {
+        margin: 0px 0px 50px 0px;
+        gap: 20px;
+    }
+
+    .features_top h2{
+        font-size: 40px;
+        line-height: 30px;
+    }
+
+    .single_feature h3 {
+        font-size: 28px;
+    }
+
+    .single_feature span {
+        width: 100%;
+    }
+
+    .benefit_section {
+        margin: 50px;
+        gap: 20px;
+    }
+
+    .core_features {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 3%;
+    }
+
+    .core_features .single_feature img {
+        max-width: 100%;
+    }
+
+    .benefit_image img{
+        width: 100%;
+    }
+
+    .benefit_section {
+        margin: 50px;
+        gap: 15px;
+    }
+
+    .benefits_list {
+        gap: 15px;
+    }
+
+    .benefits_list h2 {
+        font-size: 40px;
+    }
+
+    .benefits_list span {
+        gap: 20px;
+    }
+
+    .subscription_section {
+        margin: 50px;
+
+    }
+
+    .subscripter_header h2{
+        font-size: 40px;
+    }
+
+    .subscripter_header p {
+        font-size: 16px;
+        margin: 20px 0px;
+    }
+
+    .subscription_duration {
+        padding: 5px;
+        gap: 10px;
+        width: 100%;
+        margin: 20px 0px 20px 0px;
+    }
+
+    .subscription_duration button {
+        padding: 10px 20px;
+    }
+    .subscription_plans {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .plan {
+        padding: 15px 10px;
+    }
+
+    .plan p {
+        font-size: 14px;
+    }
+
+    .plan .plan_benefits {
+        gap: 5px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .plan_benefits span {
+        gap: 10px;
+        width: 100%;
+    }
+
+    footer {
+        background-color: #161c28;
+        margin-top: 25px;
+        padding: 50px 50px 25px 50px;
+    }
+
+    footer .footer_section_one {
+        gap: 10px;
+        margin-bottom: 40px;
+    }
+
+    footer .footer_section_one .footerTestimonials {
+        gap: 10px;
+    }
+
+    footer .footer_section_one .footerTestimonials h2 {
+        font-size: 35px;
+    }
+    footer .footer_section_one .footerTestimonials p {
+        font-size: 14px;
+    }
+
+    footer .footer_section_one .footerTestimonials .profile_icons {
+        gap: 10px;
+
+    }
+
+    footer .footer_section_one .contact_form {
+        padding: 10px 30px 20px 30px;
+    }
+    footer .footer_section_one .contact_form .contact_form_header {
+        margin: 10px;
+    }
+
+    footer .footer_section_one .contact_form .contact_form_header h3 {
+        font-size: 28px;
+    }
+    footer .footer_section_two .useful_links {
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        gap: 30px;
+    }
+}
+
+
+@media (max-width: 880px) {
+    .hero_image img {
+        width: 400px;
+    }
+
+    .hero_text img {
+        width: 100px;
+    }
+
+    footer .footer_section_one .footerTestimonials .profile_icons img {
+        width: 40px; 
+    }
+    footer .footer_section_one .footerTestimonials .profile_icons svg {
+        width: 50px; 
+    }
 }
